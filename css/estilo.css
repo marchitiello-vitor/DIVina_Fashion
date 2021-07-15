@@ -1,0 +1,202 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+header {
+    width: 88%;
+    max-width: 1200px;
+    margin: 0 auto;
+    height: 140px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+main {
+    width: 88%;
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+h3 {
+    font-weight: 400;
+    color: #660027;
+    font-size: 36px;
+}
+
+section {
+    border: solid 1px #660027;
+    width: 65%;
+    border-radius: 5px;
+}
+
+aside {
+    background-color: #660027;
+    width: 400px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+header nav ul {
+    display: flex;
+    justify-content: space-between;
+    width: 300px;
+}
+
+.contato {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    width: 780px;
+    height: 700px;
+}
+
+.labe {
+    display: flex;
+    flex-direction: column;
+}
+
+li {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+header a {
+    color: black;
+}
+
+.contato h3 {
+    align-items: center;
+}
+
+label {
+    margin-top: 15px;
+}
+
+.contato input,
+.contato textarea {
+    border: solid 1px #660027;
+}
+
+.contato input {
+    border-radius: 4px;
+    width: 400px;
+    height: 42px;
+}
+
+#mensagem {
+    width: 400px;
+}
+
+.contato button {
+    background-color: #660027;
+    padding: 10px 10px;
+    width: 128px;
+    color: white;
+    margin-top: 15px;
+    margin-right: 276px;
+    border:none;
+    border-radius: 4px;
+}
+
+footer {
+    display: none;
+}
+
+@media (max-width: 360px ) {
+
+    img {
+        margin-top: 39px;
+        width: 155px;
+        height: 70px;
+    }
+
+    header {
+        flex-direction: column;
+    }
+
+    nav {
+        height: 58px;
+        display: flex;
+        margin-top: 50px;
+    }
+
+    header nav ul {
+        flex-direction: column;
+        margin-left: 143px;
+        margin-top: 10px;
+    }
+
+    header nav li {
+        margin-top: 20px;
+    }
+
+    main {
+        flex-direction: column;
+    }
+
+    .contato {
+        display: flex;
+    }
+
+    section {
+        display: flex;
+        width: 320px;
+        margin-top: 300px;
+    }
+
+    h3 {
+        margin-right: 160px;
+        margin-bottom: 65px;
+    }
+
+    .contato input {
+        border-radius: 4px;
+        width: 263px;
+        height: 42px;
+        margin-right: 140px;
+    }
+
+    #mensagem {
+        width: 263px;
+        margin-right: 141px;
+    }
+
+    .contato button {
+        
+        margin-left: 60px;
+    }
+
+    aside {
+        display: none;
+    }
+
+    footer {
+        font-size: 14px;
+        width: 360px;
+        height: 120px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: 20px;
+        background-color: #660027;  
+        color: white;
+    }
+}
